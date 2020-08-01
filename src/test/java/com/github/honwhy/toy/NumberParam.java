@@ -1,4 +1,4 @@
-package com.github.honwhy.toy.join;
+package com.github.honwhy.toy;
 
 import lombok.Data;
 

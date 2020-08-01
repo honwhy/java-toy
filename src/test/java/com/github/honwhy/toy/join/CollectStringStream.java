@@ -1,10 +1,12 @@
 package com.github.honwhy.toy.join;
 
+import com.github.honwhy.toy.NumberParam;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.*;
 
-public class CollectStringStream implements MyStream<String,NumberParam> {
+public class CollectStringStream implements MyStream<String, NumberParam> {
 
     Executor executor = Executors.newFixedThreadPool(4);
 
